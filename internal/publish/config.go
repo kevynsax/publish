@@ -128,6 +128,8 @@ func ImageName(repo string) string {
 		"binance-adapter-api":    "binance-adapter-api",
 		"websocket-gateway-api":  "websocket-gateway-api",
 		"yahoo-adapter-api":      "yahoo-adapter-api",
+		"bank-conciliation":      "cross-helpers/bank-conciliation",
+		"interview-challenger":   "cross-helpers/interview-challenger",
 	}
 	return names[repo]
 }
